@@ -2,8 +2,8 @@
 // in we can use var, let or const to create variables
 
 var user = "albert"
-let score = 90
 
+let score = 90
 const age = 21
 
 // var was the only way used to decalre variables in js before 2015 (es6) and it had some flaws
