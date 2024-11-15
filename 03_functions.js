@@ -16,6 +16,7 @@ getTax(16, 1000);
 getTax(2.5, 36000);
 
 function countUsers(users) {
+  return
   console.log("There are " + users.length + " users");
 }
 
