@@ -9,5 +9,35 @@
 
  * Create a function sumPositiveNumbers that takes an array of numbers and returns the sum of all positive numbers. Use a loop and an if condition to check for positive numbers. Example Array [1, -2, 3, 4, -5]
 
- * Write a function personInfo that takes an object representing a person (with name, age, and occupation properties) and returns a string describing the person. Example: "John is 30 years old and works as a teacher."
+ * Write a function personInfo that takes an object representing a person (with name, age, and occupation properties) and returns/logs a string describing the person. Example: "John is 30 years old and works as a teacher."
  */
+
+const p1 = {
+  name: "Vincent",
+  age: 30,
+  occupation: "Software Developer",
+};
+const p2 = {
+  name: "Anne",
+  age: 20,
+  occupation: "Teacher",
+};
+
+function personInfo(info) {
+  console.log("hello");
+  if(info.age<28){
+      return;
+  }
+  console.log(
+    info.name +
+      " is " +
+      info.age +
+      " years old and works as a " +
+      info.occupation
+  );
+}
+
+personInfo(p1)
+personInfo(p2)
+personInfo({ name: "albert", age: 52, occupation: "mjengo guy" });
+
