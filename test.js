@@ -1,11 +1,11 @@
-let user = {
-  name: "albert",
-  age: 50,
-  married: true,
-};
+const age = 89;
 
-// Object
+if (age > 20) {
+  let user = "very old";
+}
+function doSmth() {
+  let task = age;
+}
 
-console.log(Object.keys(user)); // ["name", "age", "married"].includes()
-console.log(user["name"]);
-// console.log( user."name" );
+task = "helo";
+console.log(task);
